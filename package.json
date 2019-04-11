@@ -1,0 +1,22 @@
+{
+  "name": "bigapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.0",
+    "morgan": "~1.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-loopback": "^13.0.0"
+  }
+}
